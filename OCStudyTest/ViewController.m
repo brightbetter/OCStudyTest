@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BWMethodTest.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    [BWMethodTest metaTest];
+    BWMethodTest *method = [[BWMethodTest alloc] init];
+    [method forwardTest];
 }
 
 
