@@ -17,6 +17,12 @@
 		56B886142427A26F00E81BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B886132427A26F00E81BE8 /* main.m */; };
 		56B8861E2427A26F00E81BE8 /* OCStudyTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B8861D2427A26F00E81BE8 /* OCStudyTestTests.m */; };
 		56B886292427A26F00E81BE8 /* OCStudyTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B886282427A26F00E81BE8 /* OCStudyTestUITests.m */; };
+		56E2D63524317BD90095CB63 /* BWResponderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2D63324317BD90095CB63 /* BWResponderViewController.m */; };
+		56E2D63624317BD90095CB63 /* BWResponderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56E2D63424317BD90095CB63 /* BWResponderViewController.xib */; };
+		56E2D63924317DD80095CB63 /* BWResponderView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2D63824317DD80095CB63 /* BWResponderView1.m */; };
+		56E2D63C24317DE90095CB63 /* BWResponderView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2D63B24317DE90095CB63 /* BWResponderView2.m */; };
+		56E2D63F24317DFA0095CB63 /* BWResponderView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2D63E24317DFA0095CB63 /* BWResponderView3.m */; };
+		56E2D64224317E0A0095CB63 /* BWResponderView4.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2D64124317E0A0095CB63 /* BWResponderView4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,17 @@
 		56B886242427A26F00E81BE8 /* OCStudyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCStudyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B886282427A26F00E81BE8 /* OCStudyTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCStudyTestUITests.m; sourceTree = "<group>"; };
 		56B8862A2427A26F00E81BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E2D63224317BD90095CB63 /* BWResponderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWResponderViewController.h; sourceTree = "<group>"; };
+		56E2D63324317BD90095CB63 /* BWResponderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWResponderViewController.m; sourceTree = "<group>"; };
+		56E2D63424317BD90095CB63 /* BWResponderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BWResponderViewController.xib; sourceTree = "<group>"; };
+		56E2D63724317DD80095CB63 /* BWResponderView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWResponderView1.h; sourceTree = "<group>"; };
+		56E2D63824317DD80095CB63 /* BWResponderView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWResponderView1.m; sourceTree = "<group>"; };
+		56E2D63A24317DE90095CB63 /* BWResponderView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWResponderView2.h; sourceTree = "<group>"; };
+		56E2D63B24317DE90095CB63 /* BWResponderView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWResponderView2.m; sourceTree = "<group>"; };
+		56E2D63D24317DFA0095CB63 /* BWResponderView3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWResponderView3.h; sourceTree = "<group>"; };
+		56E2D63E24317DFA0095CB63 /* BWResponderView3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWResponderView3.m; sourceTree = "<group>"; };
+		56E2D64024317E0A0095CB63 /* BWResponderView4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWResponderView4.h; sourceTree = "<group>"; };
+		56E2D64124317E0A0095CB63 /* BWResponderView4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWResponderView4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +133,7 @@
 		56B886002427A26E00E81BE8 /* OCStudyTest */ = {
 			isa = PBXGroup;
 			children = (
+				56E2D63124317AC00095CB63 /* UI */,
 				5672E6FA2427A61900F97605 /* Runtime */,
 				56B886012427A26E00E81BE8 /* AppDelegate.h */,
 				56B886022427A26E00E81BE8 /* AppDelegate.m */,
@@ -148,6 +166,24 @@
 				56B8862A2427A26F00E81BE8 /* Info.plist */,
 			);
 			path = OCStudyTestUITests;
+			sourceTree = "<group>";
+		};
+		56E2D63124317AC00095CB63 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				56E2D63224317BD90095CB63 /* BWResponderViewController.h */,
+				56E2D63324317BD90095CB63 /* BWResponderViewController.m */,
+				56E2D63424317BD90095CB63 /* BWResponderViewController.xib */,
+				56E2D63724317DD80095CB63 /* BWResponderView1.h */,
+				56E2D63824317DD80095CB63 /* BWResponderView1.m */,
+				56E2D63A24317DE90095CB63 /* BWResponderView2.h */,
+				56E2D63B24317DE90095CB63 /* BWResponderView2.m */,
+				56E2D63D24317DFA0095CB63 /* BWResponderView3.h */,
+				56E2D63E24317DFA0095CB63 /* BWResponderView3.m */,
+				56E2D64024317E0A0095CB63 /* BWResponderView4.h */,
+				56E2D64124317E0A0095CB63 /* BWResponderView4.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E2D63624317BD90095CB63 /* BWResponderViewController.xib in Resources */,
 				56B886112427A26F00E81BE8 /* LaunchScreen.storyboard in Resources */,
 				56B8860E2427A26F00E81BE8 /* Assets.xcassets in Resources */,
 				56B8860C2427A26E00E81BE8 /* Main.storyboard in Resources */,
@@ -281,10 +318,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				56B886092427A26E00E81BE8 /* ViewController.m in Sources */,
+				56E2D63924317DD80095CB63 /* BWResponderView1.m in Sources */,
 				56B886032427A26E00E81BE8 /* AppDelegate.m in Sources */,
+				56E2D63F24317DFA0095CB63 /* BWResponderView3.m in Sources */,
 				5672E6FD2427A63800F97605 /* BWMethodTest.m in Sources */,
 				56B886142427A26F00E81BE8 /* main.m in Sources */,
+				56E2D63C24317DE90095CB63 /* BWResponderView2.m in Sources */,
+				56E2D63524317BD90095CB63 /* BWResponderViewController.m in Sources */,
 				56B886062427A26E00E81BE8 /* SceneDelegate.m in Sources */,
+				56E2D64224317E0A0095CB63 /* BWResponderView4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

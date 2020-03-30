@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "BWMethodTest.h"
+#import "BWResponderViewController.h"
 
 @interface ViewController ()
 
@@ -19,8 +19,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 //    [BWMethodTest metaTest];
-    BWMethodTest *method = [[BWMethodTest alloc] init];
-    [method forwardTest];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self presentViewController:[BWResponderViewController new] animated:NO completion:nil];
 }
 
 
