@@ -18,12 +18,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    [BWMethodTest metaTest];
+    UILabel *label = [[UILabel alloc] init];
+    label.font = [UIFont systemFontOfSize:18];
+    label.backgroundColor = [UIColor redColor];
+    label.textColor = [UIColor whiteColor];
+    label.text = @"gsfgsdfdssdfsfsfsfsdfs";
+    label.adjustsFontSizeToFitWidth = YES;
+    label.minimumScaleFactor = 0.66;
+    [self.view addSubview:label];
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [self presentViewController:[BWResponderViewController new] animated:NO completion:nil];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"444");
 }
 
 

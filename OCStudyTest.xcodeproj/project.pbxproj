@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13164226FA412222BCDE9F2B /* Pods_OCStudyTest_OCStudyTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7D3CB725FDE90E3F3A50B9 /* Pods_OCStudyTest_OCStudyTestUITests.framework */; };
+		562E38912466A68F003541AB /* UIViewController+bwSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E38902466A68F003541AB /* UIViewController+bwSwizzle.m */; };
+		562E38942466A6AC003541AB /* UIViewController+psSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E38932466A6AC003541AB /* UIViewController+psSwizzle.m */; };
+		562E38972466AA36003541AB /* NSObject+bwSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E38962466AA36003541AB /* NSObject+bwSwizzle.m */; };
 		5672E6FD2427A63800F97605 /* BWMethodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5672E6FC2427A63800F97605 /* BWMethodTest.m */; };
 		56B886032427A26E00E81BE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B886022427A26E00E81BE8 /* AppDelegate.m */; };
 		56B886062427A26E00E81BE8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B886052427A26E00E81BE8 /* SceneDelegate.m */; };
@@ -23,6 +27,8 @@
 		56E2D63C24317DE90095CB63 /* BWResponderView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2D63B24317DE90095CB63 /* BWResponderView2.m */; };
 		56E2D63F24317DFA0095CB63 /* BWResponderView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2D63E24317DFA0095CB63 /* BWResponderView3.m */; };
 		56E2D64224317E0A0095CB63 /* BWResponderView4.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2D64124317E0A0095CB63 /* BWResponderView4.m */; };
+		8620AEBAC11B57C1BFCECD99 /* Pods_OCStudyTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC0AF69C8ABFD0711930B1C /* Pods_OCStudyTestTests.framework */; };
+		B99DD3B7D309F74B6BE8331A /* Pods_OCStudyTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808531CC135CF97E84ECFF79 /* Pods_OCStudyTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C7D3CB725FDE90E3F3A50B9 /* Pods_OCStudyTest_OCStudyTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCStudyTest_OCStudyTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC0AF69C8ABFD0711930B1C /* Pods_OCStudyTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCStudyTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		562E388F2466A68F003541AB /* UIViewController+bwSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+bwSwizzle.h"; sourceTree = "<group>"; };
+		562E38902466A68F003541AB /* UIViewController+bwSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+bwSwizzle.m"; sourceTree = "<group>"; };
+		562E38922466A6AC003541AB /* UIViewController+psSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+psSwizzle.h"; sourceTree = "<group>"; };
+		562E38932466A6AC003541AB /* UIViewController+psSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+psSwizzle.m"; sourceTree = "<group>"; };
+		562E38952466AA36003541AB /* NSObject+bwSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+bwSwizzle.h"; sourceTree = "<group>"; };
+		562E38962466AA36003541AB /* NSObject+bwSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+bwSwizzle.m"; sourceTree = "<group>"; };
 		5672E6FB2427A63800F97605 /* BWMethodTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMethodTest.h; sourceTree = "<group>"; };
 		5672E6FC2427A63800F97605 /* BWMethodTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWMethodTest.m; sourceTree = "<group>"; };
 		56B885FE2427A26E00E81BE8 /* OCStudyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCStudyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +88,13 @@
 		56E2D63E24317DFA0095CB63 /* BWResponderView3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWResponderView3.m; sourceTree = "<group>"; };
 		56E2D64024317E0A0095CB63 /* BWResponderView4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWResponderView4.h; sourceTree = "<group>"; };
 		56E2D64124317E0A0095CB63 /* BWResponderView4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWResponderView4.m; sourceTree = "<group>"; };
+		658C852C7A9179EA4811A16F /* Pods-OCStudyTest-OCStudyTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStudyTest-OCStudyTestUITests.release.xcconfig"; path = "Target Support Files/Pods-OCStudyTest-OCStudyTestUITests/Pods-OCStudyTest-OCStudyTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D7183FA8DECBC9089DCFF0B /* Pods-OCStudyTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStudyTestTests.debug.xcconfig"; path = "Target Support Files/Pods-OCStudyTestTests/Pods-OCStudyTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		808531CC135CF97E84ECFF79 /* Pods_OCStudyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCStudyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CC5A6DBC15E55938694AB9 /* Pods-OCStudyTest-OCStudyTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStudyTest-OCStudyTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCStudyTest-OCStudyTestUITests/Pods-OCStudyTest-OCStudyTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD3879DDDEF070D7F6F32BD8 /* Pods-OCStudyTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStudyTestTests.release.xcconfig"; path = "Target Support Files/Pods-OCStudyTestTests/Pods-OCStudyTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		E31620315292D732BCEA8596 /* Pods-OCStudyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStudyTest.debug.xcconfig"; path = "Target Support Files/Pods-OCStudyTest/Pods-OCStudyTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B261C3372015B05950F57F /* Pods-OCStudyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStudyTest.release.xcconfig"; path = "Target Support Files/Pods-OCStudyTest/Pods-OCStudyTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99DD3B7D309F74B6BE8331A /* Pods_OCStudyTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8620AEBAC11B57C1BFCECD99 /* Pods_OCStudyTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +118,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13164226FA412222BCDE9F2B /* Pods_OCStudyTest_OCStudyTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		292F35123C812EC9451A2662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E31620315292D732BCEA8596 /* Pods-OCStudyTest.debug.xcconfig */,
+				F1B261C3372015B05950F57F /* Pods-OCStudyTest.release.xcconfig */,
+				B6CC5A6DBC15E55938694AB9 /* Pods-OCStudyTest-OCStudyTestUITests.debug.xcconfig */,
+				658C852C7A9179EA4811A16F /* Pods-OCStudyTest-OCStudyTestUITests.release.xcconfig */,
+				6D7183FA8DECBC9089DCFF0B /* Pods-OCStudyTestTests.debug.xcconfig */,
+				BD3879DDDEF070D7F6F32BD8 /* Pods-OCStudyTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		562E388E2466A646003541AB /* Swizzle */ = {
+			isa = PBXGroup;
+			children = (
+				562E388F2466A68F003541AB /* UIViewController+bwSwizzle.h */,
+				562E38902466A68F003541AB /* UIViewController+bwSwizzle.m */,
+				562E38922466A6AC003541AB /* UIViewController+psSwizzle.h */,
+				562E38932466A6AC003541AB /* UIViewController+psSwizzle.m */,
+				562E38952466AA36003541AB /* NSObject+bwSwizzle.h */,
+				562E38962466AA36003541AB /* NSObject+bwSwizzle.m */,
+			);
+			path = Swizzle;
+			sourceTree = "<group>";
+		};
 		5672E6FA2427A61900F97605 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +167,8 @@
 				56B8861C2427A26F00E81BE8 /* OCStudyTestTests */,
 				56B886272427A26F00E81BE8 /* OCStudyTestUITests */,
 				56B885FF2427A26E00E81BE8 /* Products */,
+				292F35123C812EC9451A2662 /* Pods */,
+				FBAA60EFDAC8B4A3002ED3EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +185,7 @@
 		56B886002427A26E00E81BE8 /* OCStudyTest */ = {
 			isa = PBXGroup;
 			children = (
+				562E388E2466A646003541AB /* Swizzle */,
 				56E2D63124317AC00095CB63 /* UI */,
 				5672E6FA2427A61900F97605 /* Runtime */,
 				56B886012427A26E00E81BE8 /* AppDelegate.h */,
@@ -186,6 +239,16 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		FBAA60EFDAC8B4A3002ED3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				808531CC135CF97E84ECFF79 /* Pods_OCStudyTest.framework */,
+				1C7D3CB725FDE90E3F3A50B9 /* Pods_OCStudyTest_OCStudyTestUITests.framework */,
+				4BC0AF69C8ABFD0711930B1C /* Pods_OCStudyTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56B8862D2427A26F00E81BE8 /* Build configuration list for PBXNativeTarget "OCStudyTest" */;
 			buildPhases = (
+				A296A2FE113D462BF765475C /* [CP] Check Pods Manifest.lock */,
 				56B885FA2427A26E00E81BE8 /* Sources */,
 				56B885FB2427A26E00E81BE8 /* Frameworks */,
 				56B885FC2427A26E00E81BE8 /* Resources */,
+				5440ED31866E20C20EF5B109 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56B886302427A26F00E81BE8 /* Build configuration list for PBXNativeTarget "OCStudyTestTests" */;
 			buildPhases = (
+				D5B8CC181E129E9982A5DA22 /* [CP] Check Pods Manifest.lock */,
 				56B886152427A26F00E81BE8 /* Sources */,
 				56B886162427A26F00E81BE8 /* Frameworks */,
 				56B886172427A26F00E81BE8 /* Resources */,
@@ -228,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56B886332427A26F00E81BE8 /* Build configuration list for PBXNativeTarget "OCStudyTestUITests" */;
 			buildPhases = (
+				E81778F77D5B499C68143694 /* [CP] Check Pods Manifest.lock */,
 				56B886202427A26F00E81BE8 /* Sources */,
 				56B886212427A26F00E81BE8 /* Frameworks */,
 				56B886222427A26F00E81BE8 /* Resources */,
+				90E27E544CDC74A74A8AE456 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,6 +380,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5440ED31866E20C20EF5B109 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCStudyTest/Pods-OCStudyTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCStudyTest/Pods-OCStudyTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCStudyTest/Pods-OCStudyTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E27E544CDC74A74A8AE456 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCStudyTest-OCStudyTestUITests/Pods-OCStudyTest-OCStudyTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCStudyTest-OCStudyTestUITests/Pods-OCStudyTest-OCStudyTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCStudyTest-OCStudyTestUITests/Pods-OCStudyTest-OCStudyTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A296A2FE113D462BF765475C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCStudyTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5B8CC181E129E9982A5DA22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCStudyTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E81778F77D5B499C68143694 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCStudyTest-OCStudyTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56B885FA2427A26E00E81BE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -321,11 +492,14 @@
 				56E2D63924317DD80095CB63 /* BWResponderView1.m in Sources */,
 				56B886032427A26E00E81BE8 /* AppDelegate.m in Sources */,
 				56E2D63F24317DFA0095CB63 /* BWResponderView3.m in Sources */,
+				562E38972466AA36003541AB /* NSObject+bwSwizzle.m in Sources */,
 				5672E6FD2427A63800F97605 /* BWMethodTest.m in Sources */,
 				56B886142427A26F00E81BE8 /* main.m in Sources */,
+				562E38942466A6AC003541AB /* UIViewController+psSwizzle.m in Sources */,
 				56E2D63C24317DE90095CB63 /* BWResponderView2.m in Sources */,
 				56E2D63524317BD90095CB63 /* BWResponderViewController.m in Sources */,
 				56B886062427A26E00E81BE8 /* SceneDelegate.m in Sources */,
+				562E38912466A68F003541AB /* UIViewController+bwSwizzle.m in Sources */,
 				56E2D64224317E0A0095CB63 /* BWResponderView4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,10 +667,13 @@
 		};
 		56B8862E2427A26F00E81BE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31620315292D732BCEA8596 /* Pods-OCStudyTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2B5544493;
 				INFOPLIST_FILE = OCStudyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -509,10 +686,13 @@
 		};
 		56B8862F2427A26F00E81BE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B261C3372015B05950F57F /* Pods-OCStudyTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2B5544493;
 				INFOPLIST_FILE = OCStudyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,6 +705,7 @@
 		};
 		56B886312427A26F00E81BE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7183FA8DECBC9089DCFF0B /* Pods-OCStudyTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +725,7 @@
 		};
 		56B886322427A26F00E81BE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3879DDDEF070D7F6F32BD8 /* Pods-OCStudyTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +745,7 @@
 		};
 		56B886342427A26F00E81BE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CC5A6DBC15E55938694AB9 /* Pods-OCStudyTest-OCStudyTestUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OCStudyTestUITests/Info.plist;
@@ -580,6 +763,7 @@
 		};
 		56B886352427A26F00E81BE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658C852C7A9179EA4811A16F /* Pods-OCStudyTest-OCStudyTestUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OCStudyTestUITests/Info.plist;
