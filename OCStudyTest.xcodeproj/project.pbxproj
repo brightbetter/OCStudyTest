@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564C04872430CEDE0021A572 /* BWThreadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C04862430CEDE0021A572 /* BWThreadTest.m */; };
+		564C048A2430CEFB0021A572 /* BWGcdTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C04892430CEFB0021A572 /* BWGcdTest.m */; };
+		564C048D2430CF1C0021A572 /* BWOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C048C2430CF1C0021A572 /* BWOperationTest.m */; };
+		564C04902430E2840021A572 /* BWLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C048F2430E2840021A572 /* BWLockTest.m */; };
 		5672E6FD2427A63800F97605 /* BWMethodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5672E6FC2427A63800F97605 /* BWMethodTest.m */; };
 		56B886032427A26E00E81BE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B886022427A26E00E81BE8 /* AppDelegate.m */; };
 		56B886062427A26E00E81BE8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B886052427A26E00E81BE8 /* SceneDelegate.m */; };
@@ -37,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		564C04852430CEDE0021A572 /* BWThreadTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWThreadTest.h; sourceTree = "<group>"; };
+		564C04862430CEDE0021A572 /* BWThreadTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWThreadTest.m; sourceTree = "<group>"; };
+		564C04882430CEFB0021A572 /* BWGcdTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWGcdTest.h; sourceTree = "<group>"; };
+		564C04892430CEFB0021A572 /* BWGcdTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWGcdTest.m; sourceTree = "<group>"; };
+		564C048B2430CF1C0021A572 /* BWOperationTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWOperationTest.h; sourceTree = "<group>"; };
+		564C048C2430CF1C0021A572 /* BWOperationTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWOperationTest.m; sourceTree = "<group>"; };
+		564C048E2430E2840021A572 /* BWLockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWLockTest.h; sourceTree = "<group>"; };
+		564C048F2430E2840021A572 /* BWLockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWLockTest.m; sourceTree = "<group>"; };
 		5672E6FB2427A63800F97605 /* BWMethodTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMethodTest.h; sourceTree = "<group>"; };
 		5672E6FC2427A63800F97605 /* BWMethodTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWMethodTest.m; sourceTree = "<group>"; };
 		56B885FE2427A26E00E81BE8 /* OCStudyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCStudyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +96,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		564C04842430CE6F0021A572 /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				564C04852430CEDE0021A572 /* BWThreadTest.h */,
+				564C04862430CEDE0021A572 /* BWThreadTest.m */,
+				564C04882430CEFB0021A572 /* BWGcdTest.h */,
+				564C04892430CEFB0021A572 /* BWGcdTest.m */,
+				564C048B2430CF1C0021A572 /* BWOperationTest.h */,
+				564C048C2430CF1C0021A572 /* BWOperationTest.m */,
+				564C048E2430E2840021A572 /* BWLockTest.h */,
+				564C048F2430E2840021A572 /* BWLockTest.m */,
+			);
+			path = "多线程";
+			sourceTree = "<group>";
+		};
 		5672E6FA2427A61900F97605 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +143,7 @@
 		56B886002427A26E00E81BE8 /* OCStudyTest */ = {
 			isa = PBXGroup;
 			children = (
+				564C04842430CE6F0021A572 /* 多线程 */,
 				5672E6FA2427A61900F97605 /* Runtime */,
 				56B886012427A26E00E81BE8 /* AppDelegate.h */,
 				56B886022427A26E00E81BE8 /* AppDelegate.m */,
@@ -280,10 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564C04902430E2840021A572 /* BWLockTest.m in Sources */,
+				564C04872430CEDE0021A572 /* BWThreadTest.m in Sources */,
 				56B886092427A26E00E81BE8 /* ViewController.m in Sources */,
 				56B886032427A26E00E81BE8 /* AppDelegate.m in Sources */,
 				5672E6FD2427A63800F97605 /* BWMethodTest.m in Sources */,
 				56B886142427A26F00E81BE8 /* main.m in Sources */,
+				564C048A2430CEFB0021A572 /* BWGcdTest.m in Sources */,
+				564C048D2430CF1C0021A572 /* BWOperationTest.m in Sources */,
 				56B886062427A26E00E81BE8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2B5544493;
 				INFOPLIST_FILE = OCStudyTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2B5544493;
 				INFOPLIST_FILE = OCStudyTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
