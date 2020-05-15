@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BWGcdTest.h"
 #import "BWResponderViewController.h"
 #import "BWProperty.h"
 
@@ -19,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    [BWMethodTest metaTest];
+    [BWGcdTest taskDepend];
     UILabel *label = [[UILabel alloc] init];
     label.font = [UIFont systemFontOfSize:18];
     label.backgroundColor = [UIColor redColor];

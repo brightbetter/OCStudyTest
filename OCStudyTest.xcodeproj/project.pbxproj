@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564C04872430CEDE0021A572 /* BWThreadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C04862430CEDE0021A572 /* BWThreadTest.m */; };
+		564C048A2430CEFB0021A572 /* BWGcdTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C04892430CEFB0021A572 /* BWGcdTest.m */; };
+		564C048D2430CF1C0021A572 /* BWOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C048C2430CF1C0021A572 /* BWOperationTest.m */; };
+		564C04902430E2840021A572 /* BWLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C048F2430E2840021A572 /* BWLockTest.m */; };
 		13164226FA412222BCDE9F2B /* Pods_OCStudyTest_OCStudyTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7D3CB725FDE90E3F3A50B9 /* Pods_OCStudyTest_OCStudyTestUITests.framework */; };
 		562E38912466A68F003541AB /* UIViewController+bwSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E38902466A68F003541AB /* UIViewController+bwSwizzle.m */; };
 		562E38942466A6AC003541AB /* UIViewController+psSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E38932466A6AC003541AB /* UIViewController+psSwizzle.m */; };
@@ -51,6 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		564C04852430CEDE0021A572 /* BWThreadTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWThreadTest.h; sourceTree = "<group>"; };
+		564C04862430CEDE0021A572 /* BWThreadTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWThreadTest.m; sourceTree = "<group>"; };
+		564C04882430CEFB0021A572 /* BWGcdTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWGcdTest.h; sourceTree = "<group>"; };
+		564C04892430CEFB0021A572 /* BWGcdTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWGcdTest.m; sourceTree = "<group>"; };
+		564C048B2430CF1C0021A572 /* BWOperationTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWOperationTest.h; sourceTree = "<group>"; };
+		564C048C2430CF1C0021A572 /* BWOperationTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWOperationTest.m; sourceTree = "<group>"; };
+		564C048E2430E2840021A572 /* BWLockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWLockTest.h; sourceTree = "<group>"; };
+		564C048F2430E2840021A572 /* BWLockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWLockTest.m; sourceTree = "<group>"; };
 		1C7D3CB725FDE90E3F3A50B9 /* Pods_OCStudyTest_OCStudyTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCStudyTest_OCStudyTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC0AF69C8ABFD0711930B1C /* Pods_OCStudyTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCStudyTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		562E388F2466A68F003541AB /* UIViewController+bwSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+bwSwizzle.h"; sourceTree = "<group>"; };
@@ -131,6 +143,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		564C04842430CE6F0021A572 /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				564C04852430CEDE0021A572 /* BWThreadTest.h */,
+				564C04862430CEDE0021A572 /* BWThreadTest.m */,
+				564C04882430CEFB0021A572 /* BWGcdTest.h */,
+				564C04892430CEFB0021A572 /* BWGcdTest.m */,
+				564C048B2430CF1C0021A572 /* BWOperationTest.h */,
+				564C048C2430CF1C0021A572 /* BWOperationTest.m */,
+				564C048E2430E2840021A572 /* BWLockTest.h */,
+				564C048F2430E2840021A572 /* BWLockTest.m */,
+			);
+			path = "多线程";
 		292F35123C812EC9451A2662 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +236,7 @@
 			children = (
 				565303B2246E88480076968F /* Property */,
 				565303AE246E3F950076968F /* Lock */,
+				564C04842430CE6F0021A572 /* 多线程 */,
 				562E388E2466A646003541AB /* Swizzle */,
 				56E2D63124317AC00095CB63 /* UI */,
 				5672E6FA2427A61900F97605 /* Runtime */,
@@ -514,6 +540,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564C04902430E2840021A572 /* BWLockTest.m in Sources */,
+				564C04872430CEDE0021A572 /* BWThreadTest.m in Sources */,
 				56B886092427A26E00E81BE8 /* ViewController.m in Sources */,
 				56E2D63924317DD80095CB63 /* BWResponderView1.m in Sources */,
 				56B886032427A26E00E81BE8 /* AppDelegate.m in Sources */,
@@ -522,6 +550,8 @@
 				562E38972466AA36003541AB /* NSObject+bwSwizzle.m in Sources */,
 				5672E6FD2427A63800F97605 /* BWMethodTest.m in Sources */,
 				56B886142427A26F00E81BE8 /* main.m in Sources */,
+				564C048A2430CEFB0021A572 /* BWGcdTest.m in Sources */,
+				564C048D2430CF1C0021A572 /* BWOperationTest.m in Sources */,
 				562E38942466A6AC003541AB /* UIViewController+psSwizzle.m in Sources */,
 				56E2D63C24317DE90095CB63 /* BWResponderView2.m in Sources */,
 				56E2D63524317BD90095CB63 /* BWResponderViewController.m in Sources */,
