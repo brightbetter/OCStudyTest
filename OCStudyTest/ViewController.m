@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "BWResponderViewController.h"
+#import "BWProperty.h"
 
 @interface ViewController ()
 
@@ -26,6 +27,8 @@
     label.adjustsFontSizeToFitWidth = YES;
     label.minimumScaleFactor = 0.66;
     [self.view addSubview:label];
+    BWProperty *test = [[BWProperty alloc] init];
+    [test testCopy];
     
 }
 
@@ -35,7 +38,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    NSLog(@"444");
+    NSLog(@"444 %@", [self class]);
 }
 
 

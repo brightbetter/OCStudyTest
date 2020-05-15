@@ -13,17 +13,17 @@
 
 @implementation UIViewController (bwSwizzle)
 
-+(void)load {
-    NSLog(@"bwSwizzle load");
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        [self swizzleSEL:@selector(viewWillAppear:) withSEL:@selector(swizzled_viewWillAppear:)];
-    });
-}
+//+(void)load {
+//    NSLog(@"bwSwizzle load");
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        [self swizzleSEL:@selector(viewWillAppear:) withSEL:@selector(bwSwizzled_viewWillAppear:)];
+//    });
+//}
 
-- (void)swizzled_viewWillAppear:(BOOL)animated {
-    [self swizzled_viewWillAppear:animated];
-    NSLog(@"555");
+- (void)bwSwizzled_viewWillAppear:(BOOL)animated {
+     NSLog(@"555 %@", [self class]);
+    [self bwSwizzled_viewWillAppear:animated];
 }
 
 

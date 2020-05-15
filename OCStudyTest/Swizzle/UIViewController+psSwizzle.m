@@ -12,17 +12,17 @@
 
 @implementation UIViewController (psSwizzle)
 
-+ (void)load {
-    NSLog(@"psSwizzle load");
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        [self swizzleSEL:@selector(viewWillAppear:) withSEL:@selector(swizzled_viewWillAppear:)];
-    });
-}
+//+ (void)load {
+//    NSLog(@"psSwizzle load");
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        [self swizzleSEL:@selector(viewWillAppear:) withSEL:@selector(psSwizzled_viewWillAppear:)];
+//    });
+//}
 
-- (void)swizzled_viewWillAppear:(BOOL)animated {
-    [self swizzled_viewWillAppear:animated];
-    NSLog(@"666");
+- (void)psSwizzled_viewWillAppear:(BOOL)animated {
+    NSLog(@"666 %@", [self class]);
+    [self psSwizzled_viewWillAppear:animated];
 }
 
 @end

@@ -11,6 +11,8 @@
 		562E38912466A68F003541AB /* UIViewController+bwSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E38902466A68F003541AB /* UIViewController+bwSwizzle.m */; };
 		562E38942466A6AC003541AB /* UIViewController+psSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E38932466A6AC003541AB /* UIViewController+psSwizzle.m */; };
 		562E38972466AA36003541AB /* NSObject+bwSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E38962466AA36003541AB /* NSObject+bwSwizzle.m */; };
+		565303B1246E3FC90076968F /* BWLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 565303B0246E3FC90076968F /* BWLock.m */; };
+		565303B5246E88800076968F /* BWProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 565303B4246E88800076968F /* BWProperty.m */; };
 		5672E6FD2427A63800F97605 /* BWMethodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5672E6FC2427A63800F97605 /* BWMethodTest.m */; };
 		56B886032427A26E00E81BE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B886022427A26E00E81BE8 /* AppDelegate.m */; };
 		56B886062427A26E00E81BE8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B886052427A26E00E81BE8 /* SceneDelegate.m */; };
@@ -57,6 +59,10 @@
 		562E38932466A6AC003541AB /* UIViewController+psSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+psSwizzle.m"; sourceTree = "<group>"; };
 		562E38952466AA36003541AB /* NSObject+bwSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+bwSwizzle.h"; sourceTree = "<group>"; };
 		562E38962466AA36003541AB /* NSObject+bwSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+bwSwizzle.m"; sourceTree = "<group>"; };
+		565303AF246E3FC90076968F /* BWLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWLock.h; sourceTree = "<group>"; };
+		565303B0246E3FC90076968F /* BWLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWLock.m; sourceTree = "<group>"; };
+		565303B3246E88800076968F /* BWProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWProperty.h; sourceTree = "<group>"; };
+		565303B4246E88800076968F /* BWProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWProperty.m; sourceTree = "<group>"; };
 		5672E6FB2427A63800F97605 /* BWMethodTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMethodTest.h; sourceTree = "<group>"; };
 		5672E6FC2427A63800F97605 /* BWMethodTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWMethodTest.m; sourceTree = "<group>"; };
 		56B885FE2427A26E00E81BE8 /* OCStudyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCStudyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +157,24 @@
 			path = Swizzle;
 			sourceTree = "<group>";
 		};
+		565303AE246E3F950076968F /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				565303AF246E3FC90076968F /* BWLock.h */,
+				565303B0246E3FC90076968F /* BWLock.m */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		565303B2246E88480076968F /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				565303B3246E88800076968F /* BWProperty.h */,
+				565303B4246E88800076968F /* BWProperty.m */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
 		5672E6FA2427A61900F97605 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +209,8 @@
 		56B886002427A26E00E81BE8 /* OCStudyTest */ = {
 			isa = PBXGroup;
 			children = (
+				565303B2246E88480076968F /* Property */,
+				565303AE246E3F950076968F /* Lock */,
 				562E388E2466A646003541AB /* Swizzle */,
 				56E2D63124317AC00095CB63 /* UI */,
 				5672E6FA2427A61900F97605 /* Runtime */,
@@ -491,6 +517,7 @@
 				56B886092427A26E00E81BE8 /* ViewController.m in Sources */,
 				56E2D63924317DD80095CB63 /* BWResponderView1.m in Sources */,
 				56B886032427A26E00E81BE8 /* AppDelegate.m in Sources */,
+				565303B1246E3FC90076968F /* BWLock.m in Sources */,
 				56E2D63F24317DFA0095CB63 /* BWResponderView3.m in Sources */,
 				562E38972466AA36003541AB /* NSObject+bwSwizzle.m in Sources */,
 				5672E6FD2427A63800F97605 /* BWMethodTest.m in Sources */,
@@ -498,6 +525,7 @@
 				562E38942466A6AC003541AB /* UIViewController+psSwizzle.m in Sources */,
 				56E2D63C24317DE90095CB63 /* BWResponderView2.m in Sources */,
 				56E2D63524317BD90095CB63 /* BWResponderViewController.m in Sources */,
+				565303B5246E88800076968F /* BWProperty.m in Sources */,
 				56B886062427A26E00E81BE8 /* SceneDelegate.m in Sources */,
 				562E38912466A68F003541AB /* UIViewController+bwSwizzle.m in Sources */,
 				56E2D64224317E0A0095CB63 /* BWResponderView4.m in Sources */,

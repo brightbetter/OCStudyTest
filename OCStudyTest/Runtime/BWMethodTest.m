@@ -11,14 +11,22 @@
 
 @interface BWMethodForwardTest : NSObject
 
-- (void)forwardMethod;
-
 @end
 
 @implementation BWMethodForwardTest
 
 - (void)forwardTest {
     NSLog(@"called forwardMethod");
+}
+
+// 第1步 是否有动态添加方法
++ (BOOL)resolveInstanceMethod:(SEL)sel {//会继续消息转发流程
+    NSLog(@"BWMethodForwardTest called resolveInstanceMethod:%@",NSStringFromSelector(sel));
+//    NSString *methodName = NSStringFromSelector(sel);
+//    if ([methodName isEqualToString:@"forwardTest"]) {
+//        return class_addMethod(self, sel, (IMP)forwardTest, "v@:");
+//    }
+    return NO;
 }
 
 @end
@@ -82,10 +90,10 @@ void forwardTest(id self,SEL _cmd) {
 // 第2步 是否有备用接收者，就是委托别人帮你实现了，返回这个类
 - (id)forwardingTargetForSelector:(SEL)aSelector {
     NSLog(@"called forwardingTargetForSelector:%@",NSStringFromSelector(aSelector));
-//    NSString *methodName = NSStringFromSelector(aSelector);
-//    if ([methodName isEqualToString:@"forwardTest"]) {
-//        return [BWMethodForwardTest new];
-//    }
+    NSString *methodName = NSStringFromSelector(aSelector);
+    if ([methodName isEqualToString:@"forwardTest"]) {
+        return [BWMethodForwardTest new];
+    }
     return [super forwardingTargetForSelector:aSelector];
 }
 
